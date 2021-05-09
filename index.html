@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Bem vindo a Leitor De Livros, ou LDL</h1>
+  
+    <h2>feito especialmente para a escola thomaz edison, 6° turma D</h2>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+   
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">texto</label>
+          </div>
+          <br>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="speak()">falar 📢 </button>
+        <button class="btn btn-dark" type="button" id="button-addon1" onclick="traslate()">contrario </button>
+        
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script>
+    let values = document.getElementById("speaks")
+    function traslate() {
+values.value = values.value.split('').reverse().join('')
+    }
+  
+        function speak() {
+            
+            let teste = new SpeechSynthesisUtterance(values.value)
+
+speechSynthesis.speak(teste)
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+     <small> criado por: Samuel Petri</small>
+</body>
+</html>
+<style>
+body {
+    padding: 3em;
+    text-align: center;
+}
+
+   
+
+</style>
